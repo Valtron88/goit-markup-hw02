@@ -1,6 +1,6 @@
 body{
      font-family: "Roboto",sans-serif;
-    
+
      font-weight: 500;
      color: #2E2F42;
      
@@ -20,34 +20,57 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+    text-decoration: none;
 
 }
 .header-span{
     color: #4D5AE5;
 }
 .header-list {
+    list-style-type:none;
 }
 .header-item {
 }
 .header-link {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-decoration: none;
+    
 
 }
 .header-adress {
+    
    
 }
-.header-adress-list {
-   
 
+.header-adress-list
+    {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        list-style-type:none;
+       
+  
+    }
+
+.header-adress-link
+{
+   
 }
-.header-contacts {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
+.header-mail{
+    text-decoration: none;
     color: #434455;
 }
+
+.header-telephon{
+    text-decoration: none;
+    color: #434455;
+
+}
+
