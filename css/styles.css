@@ -107,6 +107,12 @@ body{
     border: none;
 }
 
+.hero-btn:focus,
+.hero-btn:hover{
+    cursor: pointer;
+    background-color: #404BBF;
+}
+
 .advantages-section {
 }
 
@@ -252,6 +258,24 @@ body{
     color: #4D5AE5;
 }
 
+.portfolio-btn-all {
+    width: 69px;
+    height: 48px;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
 .samples-main {
 }
 .samples-list {
@@ -270,6 +294,8 @@ body{
 }
 .sample-text {
     font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
