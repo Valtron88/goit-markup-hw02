@@ -47,6 +47,15 @@ body{
     color: #2E2F42;
 }
 
+.header-link:hover,
+.header-mail:hover,
+.header-telephon:hover,
+.header-mail:focus,
+.header-telephon:focus,
+.header-link:focus{
+    color: #404BBF;
+}
+
 .header-adress {   
 }
 
@@ -60,6 +69,7 @@ body{
 
 .header-adress-link {   
 }
+
 
 .header-mail{
     color: #434455;
@@ -212,4 +222,57 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+
+.portfolio-section {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.samples-main {
+}
+.samples-list {
+}
+.samples-items {
+
+}
+.samples-list-sub {
+}
+.sample-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.sample-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.sample-item-sub {
 }
