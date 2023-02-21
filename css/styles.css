@@ -310,11 +310,11 @@ body{
     letter-spacing: 0.02em;
     color:var(--gray);
 }
-.cards-title:focus,
-.cards-text:focus,
+
 .cards-title:hover,
 .cards-text:hover{
     color:var(--ocean);
 }
+
 
 /*-----/cards-------*/
