@@ -12,6 +12,22 @@ body{
     --footer-text:#E7E9FC;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1148px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
 .list{
     list-style-type:none;
 }
@@ -23,6 +39,7 @@ body{
 /*-----header--------*/
 
 .header {
+    padding: 24px 0;
 }
 
 .header-navigation {
@@ -99,6 +116,11 @@ body{
 
 .hero-saction {
     background-color:var(--brand-color);
+    margin-top: 72px;
+    padding: 188px 472px 188px 472px;
+    min-width: 1440px;
+    min-height: 600px;
+ 
 }
 
 .hero-head {
@@ -107,6 +129,11 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color:var(--white);
+    display: block;
+    width: 496px;
+    margin: 0 auto 48px auto;
+   
+
 }
 
 .hero-btn {
@@ -119,6 +146,12 @@ body{
     background-color: var(--fiolet);
     border: none;
     cursor: pointer;
+    display: block;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .hero-btn:focus,
@@ -131,13 +164,16 @@ body{
 /*-----advantages-------*/
 
 .advantages-section {
+    padding: 72px 0 72px;
+ 
 }
 
 .adventages-head {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em; 
+       
 }
 .adventages-list {
 }
@@ -164,6 +200,7 @@ body{
 /*-----what-we-doing-------*/
 
 .what-we-doing-section {
+    margin-bottom: 72px;
 }
 
 
@@ -173,6 +210,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .what-we-doing-list {
@@ -190,6 +228,7 @@ body{
 
 .our-team-section {
     background-color: var(--white-logo);
+    padding: 120px 0;
 }
 
 .our-team-head {
@@ -226,6 +265,9 @@ body{
 
 .footer {
     background-color:var(--brand-color); 
+    min-width: 1440px;
+    height: 310px;
+    padding: 100px 156px;
 }
 
 .footer-logo {
@@ -249,9 +291,29 @@ body{
 
 /*-----portfolio-------*/
 
+.portfolio-main{
+    padding: 72px 0;
+
+}
+
 .portfolio-section {
 }
+
+.portfolio-head {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+
+
+}
+
 .portfolio-list {
+    display: flex;
+    margin-bottom: 72px;
 }
 .portfolio-item {
 }
@@ -278,10 +340,6 @@ body{
     background: var(--ocean);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color:var(--white);
-}
-
-.portfolio-head{
-    text-align: center;
 }
 
 
